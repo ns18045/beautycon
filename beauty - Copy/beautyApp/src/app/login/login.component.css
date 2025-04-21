@@ -1,0 +1,81 @@
+/* Background Image and General Layout */
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85); /* Light white background with slight transparency */
+  padding: 40px 60px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3F334D; /* Primary color */
+  margin-bottom: 30px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #3F334D; /* Secondary Color */
+  background-color: transparent; /* Background color */
+  font-size: 16px;
+}
+
+  input:focus {
+    outline: none;
+    border-color: #3F334D; /* Primary color on focus */
+  }
+
+/* Button Styles */
+.button {
+  background-color: #DD9296; /* Secondary color */
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+  .button:hover {
+    background-color: #3F334D; /* Darken the button color on hover */
+  }
+
+button:focus {
+  outline: none;
+}
+
+/* Label Styles */
+label {
+  font-size: 16px;
+  color: #4B3B40; /* Text color */
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.error {
+  color: #D64933;
+}
+
+.errorBorder {
+  border-color: #D64933;
+}

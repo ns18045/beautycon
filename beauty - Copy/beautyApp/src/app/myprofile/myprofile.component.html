@@ -1,0 +1,255 @@
+<div class="container">
+  <!-- Edit and Back Button -->
+  <div class="action-bar">
+    <button *ngIf="!editing" (click)="edit()">Edit</button>
+    <button *ngIf="editing" (click)="edit()">Back</button>
+  </div>
+
+  <!-- User Details -->
+  <div>
+    <div class="name">
+      {{ user.name }} {{ user.surname }}
+    </div>
+    <div class="services" *ngIf="user.role=='master'">
+      <b>Address:</b> {{ user.adress }} <br>
+      <b>Services:</b> {{ user.service }}
+    </div>
+    <div class="info">
+      <b>Phone number:</b> {{ user.phoneNumber }} <br>
+      <b>E-mail</b>: {{ user.email }}
+    </div>
+  </div>
+
+  <form *ngIf="editing" #form="ngForm">
+    <div style="display:flex;">
+      <div style="width:45%; margin:0 5px;">
+        <div class="box">
+          <label for="name">Name</label>
+          <input [(ngModel)]="user.name" name="name" type="text" required
+                 [ngClass]="{'errorBorder': nameError }">
+          <p *ngIf="nameError" class="error">This is required field</p>
+        </div>
+        <div class="box">
+          <label for="surname">Surname</label>
+          <input [(ngModel)]="user.surname" name="surname" type="text" required
+                 [ngClass]="{'errorBorder': surnameError }">
+          <p *ngIf="surnameError" class="error">This is required field</p>
+        </div>
+        <div class="box">
+          <label for="email">E-mail</label>
+          <input [(ngModel)]="user.email" name="email" type="email" required
+                 [ngClass]="{'errorBorder': emailError }">
+          <p *ngIf="emailError" class="error">This is required field</p>
+        </div>
+        <div class="box">
+          <label for="password">Password</label>
+          <input [(ngModel)]="user.password" name="password" type="password" required
+                 [ngClass]="{'errorBorder': passwordError }">
+          <p *ngIf="passwordError" class="error">This is required field</p>
+        </div>
+        <div class="box">
+          <label for="phoneNumber">Phone number</label>
+          <input [(ngModel)]="user.phoneNumber" name="phoneNumber" type="text" required
+                 [ngClass]="{'errorBorder': phoneError }">
+          <p *ngIf="phoneError" class="error">This is required field</p>
+        </div>
+      </div>
+      <div style="width:45%; margin:0 5px;">
+        <div class="box" *ngIf="currentUser.role=='admin'">
+          <label for="role">Role</label>
+          <select [(ngModel)]="user.role" name="role" required
+               [ngClass]="{'errorBorder': addresError }">
+            <option [value]="'master'">Master</option>
+            <option [value]="'client'">Client</option>
+          </select>
+        </div>
+
+        <div *ngIf="user.role == 'master'">
+          <div class="box">
+            <label for="adress">Address</label>
+            <input [(ngModel)]="user.adress" name="adress" type="text" required
+                   [ngClass]="{'errorBorder': addresError }">
+            <p *ngIf="addresError" class="error">This is required field</p>
+          </div>
+          <div class="box">
+            <label for="service">Services</label>
+            <input [(ngModel)]="user.service" name="service" type="text" required
+                   [ngClass]="{'errorBorder': servicesError }">
+            <p *ngIf="servicesError" class="error">This is required field</p>
+          </div>
+          <div class="box">
+            <label for="description">Description</label>
+            <input [(ngModel)]="user.description" name="description" type="text" required
+                   [ngClass]="{'errorBorder': descriptionError }">
+            <p *ngIf="descriptionError" class="error">This is required field</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button (click)="editUser()">
+      Save
+    </button>
+  </form>
+
+  <hr class="hr-line">
+
+  <div *ngIf="user.role=='master'">
+    <!-- Available Appointments -->
+    <div>
+      <h3>Calendar</h3>
+      <div class="dateFilter">
+        <span (click)="dateBack()"><b>&#11207;</b></span>
+        <input style="border: none;" [(ngModel)]="filterDate" (ngModelChange)="updateCalcs()" name="date" type="date">
+        <span (click)="dateNext()"><b>&#11208;</b></span>
+      </div>
+
+      <div class="appointments" style="display: flex; flex-wrap: wrap;">
+        <div style="width: 33%;" *ngFor="let n of appointments">
+          <div class="tile-front" [ngClass]="{'reserved': n.clientId != null }">
+            <div><strong>{{n.timeStart}} - {{n.timeEnd}}</strong></div>
+            <div><strong>{{n.description}}</strong></div>
+            <div *ngIf="n.clientId">
+              <hr>
+              <p>{{n.clientName}} {{n.clientSurname}}</p>
+              <p>{{n.clientNumber}}</p>
+              <p>{{n.clientEmail}}</p>
+              <button class="btn" (click)="chat(n)" style="background-color: #92DCE5;">
+                <i class="fa fa-comments"></i> Chat
+              </button>
+            </div>
+            <button *ngIf="editing" class="btn" (click)="selectEditApp(n.id)">
+              <i class="fa fa-edit"></i> Edit
+            </button>
+            <button *ngIf="editing && !n.clientId" class="btn" (click)="deleteAppointment(n.id)" style="background-color: #D64933;">
+              <i class="fa fa-trash"></i> Delete
+            </button>
+
+            <!-- Edit Appointment Form -->
+            <form #form="ngForm" *ngIf="editAppointmentSelected && editAppointment.id == n.id">
+              <div class="box">
+                <label>Date</label>
+                <input [(ngModel)]="editAppointment.date" name="date" type="date" required
+                       [ngClass]="{'errorBorder': dateError }"[min]="today">
+                <p *ngIf="dateError" class="error">This is required field</p>
+              </div>
+              <div class="box">
+                <label>Start Time</label>
+                <input [(ngModel)]="editAppointment.timeStart" name="timeStart" type="time" required
+                       [ngClass]="{'errorBorder': timeStartError }">
+                <p *ngIf="timeStartError" class="error">This is required field. Must be in format <b>00:00</b></p>
+              </div>
+              <div class="box">
+                <label>End Time</label>
+                <input [(ngModel)]="editAppointment.timeEnd" name="timeEnd" type="time" required
+                       [ngClass]="{'errorBorder': timeEndError }">
+                <p *ngIf="timeEndError" class="error">This is required field. Must be in format <b>00:00</b> and largen than start time</p>
+              </div>
+              <div class="box">
+                <label>Description</label>
+                <input [(ngModel)]="editAppointment.description" name="description" type="text" required
+                       [ngClass]="{'errorBorder': appDescError }">
+                <p *ngIf="appDescError" class="error">This is required field</p>
+              </div>
+              <button (click)="saveEditAppointment()">Save</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Create New Appointment -->
+      <form #form="ngForm" *ngIf="editing">
+        <h3>Create Appointment Time</h3>
+        <div class="box">
+          <label>Date</label>
+          <input [(ngModel)]="appointment.date" name="date" type="date" required
+                 [ngClass]="{'errorBorder': dateError2 }">
+          <p *ngIf="dateError2" class="error">This is required field</p>
+        </div>
+        <div class="box">
+          <label>Start Time</label>
+          <input [(ngModel)]="appointment.timeStart" name="timeStart" type="time" required
+                 [ngClass]="{'errorBorder': timeStartError2 }">
+          <p *ngIf="timeStartError2" class="error">This is required field. Must be in format <b>00:00</b></p>
+        </div>
+        <div class="box">
+          <label>End Time</label>
+          <input [(ngModel)]="appointment.timeEnd" name="timeEnd" type="time" required
+                 [ngClass]="{'errorBorder': timeEndError2 }">
+          <p *ngIf="timeEndError2" class="error">This is required field. Must be in format <b>00:00</b> and largen than start time</p>
+        </div>
+        <div class="box">
+          <label>Description</label>
+          <input [(ngModel)]="appointment.description" name="description" type="text" required
+                 [ngClass]="{'errorBorder': descriptionError2 }">
+          <p *ngIf="appDescError2" class="error">This is required field</p>
+        </div>
+        <button (click)="createNewAppointment()">Save</button>
+      </form>
+    </div>
+    <div>
+      <h3>Ratings</h3>
+      <div class="feedbacks">
+        <!-- Ratings Section -->
+        <div *ngFor="let n of ratings">
+          <div class="tile-front">
+            <strong>{{n.mark}} <b style="color:#D64933;">&#9733;</b> | {{n.feedbackText}}</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h3>My appointments</h3>
+    <strong>Upcoming</strong><br>
+    <div *ngFor="let n of myappointments">
+      <div class="tile-front" *ngIf="n.date >= currentDate">
+        <div>
+          <strong>{{n.date}} | {{n.timeStart}} - {{n.timeEnd}} | {{n.description}}</strong>
+          <div style="float:right;">
+            <a href="/beautican-detail/{{n.masterId}}">{{n.masterName}} {{n.masterSurname}}</a>
+            <button class="btn" (click)="chat(n)" style=" width: 90px; margin: 0 5px; height: 30px; padding: 2px; background-color: #92DCE5;">
+              <i class="fa fa-comments"></i> Chat
+            </button>
+            <button class="btn" (click)="cancelAppointment(n)" style="width: 90px; margin: 0 5px; height: 30px; padding: 2px; background-color: #D64933; ">
+              <i class="fa fa-trash"></i> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <strong>Previous</strong><br>
+    <div *ngFor="let n of myappointments">
+      <div class="tile-front" *ngIf="n.date < currentDate">
+        <div>
+          <strong>{{n.date}} | {{n.timeStart}} - {{n.timeEnd}} | {{n.description}}</strong>
+          <div style="float:right;">
+            <a href="/beautican-detail/{{n.masterId}}">{{n.masterName}} {{n.masterSurname}}</a>
+            <button class="btn" (click)="chat(n)" style=" width: 90px; margin: 0 5px; height: 30px; padding: 2px; background-color: #92DCE5;">
+              <i class="fa fa-comments"></i> Chat
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="confirmationModal" *ngIf="openModal">
+    <div class="modal-content">
+      <h3>Are you sure?</h3>
+      <p *ngIf="modalCancel">Do you really want to cancel your appointment?</p>
+      <div *ngIf="modalCancel" class="modal-buttons">
+        <button class="btn confirm" (click)="confirmCancel()">Yes</button>
+        <button class="btn cancel" (click)="cancelCancel()">No</button>
+      </div>
+
+      <p *ngIf="modalDelete">Do you really want to delete this appointment?</p>
+      <div *ngIf="modalDelete" class="modal-buttons">
+        <button class="btn confirm" (click)="confirmDelete()">Yes</button>
+        <button class="btn cancel" (click)="cancelDelete()">No</button>
+      </div>
+    </div>
+  </div>
+
+</div>

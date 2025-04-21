@@ -1,0 +1,643 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nauris\\Desktop\\beauty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\models\\beautydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\models\\beautydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\controllers\\userfeedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\controllers\\userfeedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beautyApp\\src\\app\\user-create\\user-create.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\beauty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\beauty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\beauty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\beauty.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\test\\test.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\test\\test.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\src\\app\\test\\test.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:beauty\\beautyApp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250222165108_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250222165108_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250223110406_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250223110406_date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250223100728_appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250223100728_appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250301112003_user-login-detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250301112003_user-login-detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250403103710_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250403103710_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|c:\\users\\nauris\\desktop\\beauty\\beauty\\migrations\\20250403111411_chat-upd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AAFA9-7112-4806-9789-F9D9921A88BC}|beauty\\beauty.csproj|solutionrelative:beauty\\migrations\\20250403111411_chat-upd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\Chat.cs",
+              "RelativeDocumentMoniker": "beauty\\Models\\Chat.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\Chat.cs",
+              "RelativeToolTip": "beauty\\Models\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:30:35.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\User.cs",
+              "RelativeDocumentMoniker": "beauty\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\User.cs",
+              "RelativeToolTip": "beauty\\Models\\User.cs",
+              "ViewState": "AgIAAC4AAACgmZmZmdkywDYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:05:48.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BeautyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\BeautyDbContext.cs",
+              "RelativeDocumentMoniker": "beauty\\Models\\BeautyDbContext.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Models\\BeautyDbContext.cs",
+              "RelativeToolTip": "beauty\\Models\\BeautyDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:23:20.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "beauty\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "beauty\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:00:52.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "user-create.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "RelativeDocumentMoniker": "beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "RelativeToolTip": "beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-13T07:14:37.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "beauty\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "beauty\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAQAAACAMjMzM5MwwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:48:13.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250403103710_chat.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250403103710_chat.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250403103710_chat.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250403103710_chat.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250403103710_chat.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:37:10.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatsController.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\ChatsController.cs",
+              "RelativeDocumentMoniker": "beauty\\Controllers\\ChatsController.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\ChatsController.cs",
+              "RelativeToolTip": "beauty\\Controllers\\ChatsController.cs",
+              "ViewState": "AgIAAFAAAABAMzMzM7MnwGAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:45:58.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250403111411_chat-upd.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250403111411_chat-upd.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250403111411_chat-upd.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250403111411_chat-upd.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250403111411_chat-upd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:14:12.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserFeedbacksController.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\UserFeedbacksController.cs",
+              "RelativeDocumentMoniker": "beauty\\Controllers\\UserFeedbacksController.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\UserFeedbacksController.cs",
+              "RelativeToolTip": "beauty\\Controllers\\UserFeedbacksController.cs",
+              "ViewState": "AgIAAB0AAAAAMjMzM7MmwDwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:18:42.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Program.cs",
+              "RelativeDocumentMoniker": "beauty\\Program.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Program.cs",
+              "RelativeToolTip": "beauty\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:25:56.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "beauty\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "beauty\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAEAAACwNDMzMzMbwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T17:47:29.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "beauty\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\WeatherForecast.cs",
+              "RelativeToolTip": "beauty\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:25:58.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\node_modules\\@types\\express-serve-static-core\\index.d.ts",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAiwFwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T16:34:01.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250222165108_init.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250222165108_init.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250222165108_init.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250222165108_init.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250222165108_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T16:51:08.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250301112003_user-login-detail.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250301112003_user-login-detail.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250301112003_user-login-detail.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250301112003_user-login-detail.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250301112003_user-login-detail.cs",
+              "ViewState": "AgIAAAIAAADAmZmZmVkqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T11:20:03.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\node_modules\\@angular\\core\\index.d.ts",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T16:33:47.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250223110406_date.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250223110406_date.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250223110406_date.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250223110406_date.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250223110406_date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:04:06.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250223100728_appointment.cs",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250223100728_appointment.cs",
+              "RelativeDocumentMoniker": "beauty\\Migrations\\20250223100728_appointment.cs",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\Migrations\\20250223100728_appointment.cs",
+              "RelativeToolTip": "beauty\\Migrations\\20250223100728_appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:07:28.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "user-create.component.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\user-create\\user-create.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T15:49:05.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "user-create.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\user-create\\user-create.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-22T15:44:46.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "beautician-list.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\beautician-list\\beautician-list.component.html",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-22T15:32:57.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "login.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\login\\login.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T15:20:13.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\login\\login.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T15:20:12.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "login.component.css",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.css",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\login\\login.component.css",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.css",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\login\\login.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-22T15:19:50.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.module.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\app.module.ts",
+              "ViewState": "AgIAABUAAACAZmZmZmYUwCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T12:48:41.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.html",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\login\\login.component.html",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\login\\login.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-22T14:57:58.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\app.routes.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAIArwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T12:41:56.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\app.component.html",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-22T13:17:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "test.component.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\test\\test.component.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\test\\test.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T13:14:27.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "test.component.css",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.css",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\test\\test.component.css",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.css",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\test\\test.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-22T13:14:32.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "test.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\test\\test.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-22T13:04:16.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "test.component.html",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.html",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\src\\app\\test\\test.component.html",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\src\\app\\test\\test.component.html",
+              "RelativeToolTip": "beauty\\beautyApp\\src\\app\\test\\test.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-22T12:45:34.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\angular.json",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\angular.json",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\angular.json",
+              "RelativeToolTip": "beauty\\beautyApp\\angular.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T12:32:25.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\package.json",
+              "RelativeDocumentMoniker": "beauty\\beautyApp\\package.json",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beautyApp\\package.json",
+              "RelativeToolTip": "beauty\\beautyApp\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T12:30:48.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "beauty.csproj",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beauty.csproj",
+              "RelativeDocumentMoniker": "beauty\\beauty.csproj",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beauty.csproj",
+              "RelativeToolTip": "beauty\\beauty.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T10:49:15.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\appsettings.json",
+              "RelativeDocumentMoniker": "beauty\\appsettings.json",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\appsettings.json",
+              "RelativeToolTip": "beauty\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T10:49:14.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "beauty",
+              "DocumentMoniker": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beauty.csproj",
+              "RelativeDocumentMoniker": "beauty\\beauty.csproj",
+              "ToolTip": "C:\\Users\\nauris\\Desktop\\beauty\\beauty\\beauty.csproj",
+              "RelativeToolTip": "beauty\\beauty.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T10:49:45.377Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

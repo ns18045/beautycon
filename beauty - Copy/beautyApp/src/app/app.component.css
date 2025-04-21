@@ -1,0 +1,70 @@
+.logo {
+  background-color: transparent !important;
+  color: white;
+  font-size: xx-large !important;
+  font-family: monospace !important;
+}
+
+/* Navigation Bar Styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3F334D; /* Primary color */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+  ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+    ul li a {
+      text-decoration: none;
+      color: #F5F9E9; /* Background color for text contrast */
+      font-size: 18px;
+      padding: 8px 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 4px;
+    }
+
+      ul li a:hover {
+        background-color: #DD9296; /* Secondary color on hover */
+      }
+
+      ul li a.active {
+        background-color: #4B3B40; /* Highlight active page */
+        color: white;
+      }
+
+      ul li a.logout {
+        background-color: #DD9296; /* Secondary color for logout */
+        color: white;
+      }
+
+        ul li a.logout:hover {
+          background-color: #4B3B40; /* Primary color for logout on hover */
+          color: #F5F9E9; /* White text on hover */
+        }
+
+/* Adjustments for small screens (responsiveness) */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+    ul li {
+      margin: 5px 0;
+    }
+
+      ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+      }
+}

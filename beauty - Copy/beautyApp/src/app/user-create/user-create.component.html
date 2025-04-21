@@ -1,0 +1,69 @@
+<div class="container">
+  <h1>Create New Profile</h1>
+
+  <form #form="ngForm">
+    <div class="box">
+      <label for="name">Name</label>
+      <input [(ngModel)]="model.name" name="name" type="text" required
+             [ngClass]="{'errorBorder': nameError }">
+      <p *ngIf="nameError" class="error">This is required field</p>
+    </div>
+    <div class="box">
+      <label for="surname">Surname</label>
+      <input [(ngModel)]="model.surname" name="surname" type="text" required
+             [ngClass]="{'errorBorder': surnameError }">
+      <p *ngIf="surnameError" class="error">This is required field</p>
+    </div>
+    <div class="box">
+      <label for="email">E-mail</label>
+      <input [(ngModel)]="model.email" name="email" type="email" required
+             [ngClass]="{'errorBorder': emailError || email2Error }">
+      <p *ngIf="emailError" class="error">This is required field. Email format must be <b>email@example.com</b></p>
+      <p *ngIf="email2Error" class="error">This email already exists</p>
+    </div>
+    <div class="box">
+      <label for="password">Password</label>
+      <input [(ngModel)]="model.password" name="password" type="password" required
+             [ngClass]="{'errorBorder': passwordError }">
+      <p *ngIf="passwordError" class="error">This is required field. Password must have atleast 8 symbols</p>
+    </div>
+    <div class="box">
+      <label for="phoneNumber">Phone number</label>
+      <input [(ngModel)]="model.phoneNumber" name="phoneNumber" type="text" required
+             [ngClass]="{'errorBorder': phoneError }">
+      <p *ngIf="phoneError" class="error">This is required field. Phone number must be 8 digit number</p>
+    </div>
+    <div class="box">
+      <label for="role">Role</label>
+      <select [(ngModel)]="model.role" name="role" required>
+        <option [value]="'master'">Master</option>
+        <option [value]="'client'">Client</option>
+      </select>
+    </div>
+
+    <div *ngIf="model.role == 'master'">
+      <div class="box">
+        <label for="adress">Address</label>
+        <input [(ngModel)]="model.adress" name="adress" type="text" required
+               [ngClass]="{'errorBorder': addresError }">
+        <p *ngIf="addresError" class="error">This is required field</p>
+      </div>
+      <div class="box">
+        <label for="service">Services</label>
+        <input [(ngModel)]="model.service" name="service" type="text" required
+               [ngClass]="{'errorBorder': servicesError }">
+        <p *ngIf="servicesError" class="error">This is required field</p>
+      </div>
+      <div class="box">
+        <label for="description">Description</label>
+        <input [(ngModel)]="model.description" name="description" type="text" required
+               [ngClass]="{'errorBorder': descriptionError }">
+        <p *ngIf="descriptionError" class="error">This is required field</p>
+      </div>
+    </div>
+
+    <button (click)="create()">
+      Save
+    </button>
+  </form>
+</div>

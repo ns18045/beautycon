@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ebebeb !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height:100%;
+}
+
+/* Filter Section Styles */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+  .filter input,
+  .filter button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #3F334D; /* Secondary Border Color */
+    background-color: #fff; /* Form Input Background */
+    color: #4B3B40; /* Text Color */
+    margin:5px 5px;
+  }
+
+    .filter input::placeholder {
+      color: #3F334D; /* Placeholder Color */
+    }
+
+  .filter button {
+    background-color: #DD9296; /* Secondary Button Color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+    .filter button:hover {
+      background-color: #3F334D; /* Darken on hover */
+    }
+
+  .filter input,
+  .filter button {
+    width: 200px;
+  }
+
+@media (max-width: 768px) {
+  .filter input,
+  .filter button {
+    width: 100%;
+  }
+}
+
+/* User List Display */
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Tile Styles */
+.tile {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+  .tile:hover {
+    transform: translateY(-5px);
+  }
+
+.tile-front {
+  padding: 20px;
+  color: #4B3B40; /* Text Color */
+}
+
+  .tile-front strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3F334D; /* Primary Color */
+  }
+
+.user-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #3F334D; /* Secondary Color */
+}
+
+  .user-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+.btn {
+  margin-top: 15px;
+  background-color: #DD9296; /* Secondary Button Color */
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  .btn:hover {
+    background-color: #3F334D; /* Darken on hover */
+  }
+
+  .btn i {
+    margin-right: 5px;
+  }

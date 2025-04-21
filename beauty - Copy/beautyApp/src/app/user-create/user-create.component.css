@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ebebeb !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #3F334D; /* Primary Color */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Input Styles */
+.box {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #4B3B40; /* Text Color */
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #3F334D; /* Secondary Border Color */
+  border-radius: 8px;
+  color: #3F334D; /* Text Color */
+  transition: border-color 0.3s ease;
+}
+
+  input:focus,
+  select:focus {
+    border-color: #3F334D; /* Primary Border Color on Focus */
+  }
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #DD9296; /* Secondary Button Color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  button:hover {
+    background-color: #3F334D; /* Darken on hover */
+  }
+
+/* Role-dependent Fields */
+div *ngIf="model.role == 'master'" .box {
+  display: block;
+}
+
+div *ngIf="model.role == 'master'" input,
+div *ngIf="model.role == 'master'" select {
+  margin-top: 10px;
+}
+
+.error {
+  color: #D64933;
+}
+
+.errorBorder {
+  border-color: #D64933;
+}
+

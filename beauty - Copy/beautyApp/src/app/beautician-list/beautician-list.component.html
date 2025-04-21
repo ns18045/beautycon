@@ -1,0 +1,34 @@
+<div class="container">
+  <!-- Filter Section -->
+  <div class="filter">
+    <div>
+      <input style="width:96%;" type="text" placeholder="Full name" name="name" [(ngModel)]="userFilter.name">
+      <input style="width: 47%;" type="text" placeholder="Address" name="adress" [(ngModel)]="userFilter.adress">
+      <input style="width: 47%;" type="text" placeholder="Services" name="service" [(ngModel)]="userFilter.service">
+      <input style="width:18%;" type="number" placeholder="Rating from" name="ratingfrom" [(ngModel)]="userFilter.ratingFrom">
+      <input style="width:18%;" type="number" placeholder="Rating to" name="ratingto" [(ngModel)]="userFilter.ratingTo">
+
+      <button class="btn" (click)="filter()">Search</button>
+      <button class="btn" (click)="clear()" style=" background-color: #3F334D !important;">Clear</button>
+
+  </div>
+
+  <!-- User List Display -->
+  <div class="block">
+    <div *ngFor="let n of data" (click)="openUser(n)" class="tile">
+      <div class="tile-front">
+        <strong>{{n.name}} {{n.surname}}</strong>
+        <div class="user-info">
+          <span>{{n.service}}</span>
+          <span>{{n.adress}}</span>
+          <p><b style="color:#D64933;">&#9733;</b> {{n.rating.toFixed(1)}}</p>
+        </div>
+
+        <!-- Edit Button -->
+        <button *ngIf="editing" class="btn" routerLink="/user-detail/{{n.id}}">
+          <i class="fa fa-edit"></i> Edit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

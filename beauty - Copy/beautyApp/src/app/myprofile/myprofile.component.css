@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ebebeb !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Action Bar Styles */
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+  .action-bar button {
+    background-color: #DD9296; /* Secondary Color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+    .action-bar button:hover {
+      background-color: #3F334D; /* Darken on hover */
+    }
+
+/* User Details Section */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3F334D; /* Primary Color */
+}
+
+.services, .info {
+  font-size: 16px;
+  color: #4B3B40; /* Text Color */
+}
+
+.hr-line {
+  border: 1px solid #3F334D;
+  margin: 20px 0;
+}
+
+/* Date Filter */
+.dateFilter {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+  .dateFilter span {
+    cursor: pointer;
+    color: #3F334D; /* Primary Color */
+  }
+
+/* Appointment and Feedback Sections */
+.appointments, .feedbacks {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.tile-front {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .tile-front strong {
+    font-size: 16px;
+    color: #3F334D; /* Primary Color */
+  }
+
+.btn {
+  background-color: #DD9296;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+  .btn:hover {
+    background-color: #3F334D;
+    color: white;
+  }
+
+  .btn i {
+    margin-right: 5px;
+  }
+
+/* Form Fields */
+.box {
+  margin-bottom: 15px;
+}
+
+  .box label {
+    font-size: 14px;
+    color: #4B3B40;
+  }
+
+  .box input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #3F334D;
+    background-color: #fff;
+  }
+
+    .box input:focus {
+      outline: none;
+      border-color: #3F334D;
+    }
+
+button {
+  background-color: #DD9296;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+  button:hover {
+    background-color: #3F334D; /* Darken on hover */
+  }
+
+.feedbacks {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.reserved {
+  background-color: #EEE5E9 !important;
+}
+
+a {
+  text-decoration: none;
+  color: #77569e;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+/* Modal Styles */
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 200px auto;
+}
+
+.modal h3 {
+  color: #3F334D;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  color: #4B3B40;
+  margin-bottom: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.confirm {
+  background-color: #DD9296;
+  color: white;
+}
+
+.cancel {
+  background-color: #92DCE5;
+  color: white;
+}
+
+.confirm:hover {
+  background-color: #3F334D;
+}
+
+.cancel:hover {
+  background-color: #3F334D;
+}
+
+.error {
+  color: #D64933;
+}
+
+.errorBorder {
+  border-color: #D64933;
+}

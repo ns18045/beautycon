@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url( "app\pic\login-beauty.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  opacity: 0.97;
+  background-attachment: fixed;
+  padding: 80px 0;
+}

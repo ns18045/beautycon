@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\beautician-detail",
+    "\\src\\app\\login",
+    "\\src\\app\\models",
+    "\\src\\app\\myprofile",
+    "\\src\\app\\services",
+    "\\src\\app\\user-create",
+    "\\src\\app\\user-list"
+  ],
+  "SelectedNode": "\\src\\app\\myprofile\\myprofile.component.ts",
+  "PreviewInSolutionExplorer": false
+}
