@@ -1,9 +1,9 @@
 <div class="bg-img">
   <form class="container loginForm">
     <h2>Login</h2>
-    <p *ngIf="loginError" class="error"><b>Incorect username or password</b></p>
+    <p *ngIf="loginError" class="error"><b>Nepareizs e-pasts un/vai parole</b></p>
     <label for="username">
-      <b>Username</b>
+      <b>E-pasts</b>
     </label>
     <input type="text"
            placeholder="Enter your username"
@@ -11,13 +11,13 @@
            [ngClass]="{'errorBorder': loginError }">
 
     <label for="password">
-      <b>Password</b>
+      <b>Parole</b>
     </label>
     <input type="password"
            placeholder="Enter your password"
            name="password" [(ngModel)]="loginuser.password" required
            [ngClass]="{'errorBorder': loginError }">
 
-    <button type="submit" class="button" (click)="login()">Login</button>
+    <button type="submit" class="button" (click)="login()">Pieslēgties</button>
   </form>
 </div>
