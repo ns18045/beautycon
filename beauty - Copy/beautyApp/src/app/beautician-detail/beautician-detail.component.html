@@ -1,8 +1,8 @@
 <div class="container">
   <!-- Edit and Back Button -->
   <div class="action-bar" *ngIf ="currentUser.role=='admin'">
-    <button *ngIf="!editing" (click)="edit()">Edit</button>
-    <button *ngIf="editing" (click)="edit()">Back</button>
+    <button *ngIf="!editing" (click)="edit()">Rediģēt</button>
+    <button *ngIf="editing" (click)="edit()">Atpakaļ</button>
   </div>
 
   <!-- User Details -->
@@ -11,12 +11,12 @@
       {{ user.name }} {{ user.surname }}
     </div>
     <div class="services" *ngIf="user.role=='master'">
-      <b>Address:</b> {{ user.adress }} <br>
-      <b>Services:</b> {{ user.service }}
+      <b>Adrese:</b> {{ user.adress }} <br>
+      <b>Pakalpojumi:</b> {{ user.service }}
     </div>
     <div class="info">
-      <b>Phone number:</b> {{ user.phoneNumber }} <br>
-      <b>E-mail</b>: {{ user.email }}
+      <b>Telefona numurs:</b> {{ user.phoneNumber }} <br>
+      <b>Epasts</b>: {{ user.email }}
     </div>
   </div>
 
@@ -24,31 +24,31 @@
     <div style="display:flex;">
       <div style="width:45%; margin:0 5px;">
         <div class="box">
-          <label for="name">Name</label>
+          <label for="name">Vārds</label>
           <input [(ngModel)]="user.name" name="name" type="text" required
                  [ngClass]="{'errorBorder': nameError }">
           <p *ngIf="nameError" class="error">This is required field</p>
         </div>
         <div class="box">
-          <label for="surname">Surname</label>
+          <label for="surname">Uzvārds</label>
           <input [(ngModel)]="user.surname" name="surname" type="text" required
                  [ngClass]="{'errorBorder': surnameError }">
           <p *ngIf="surnameError" class="error">This is required field</p>
         </div>
         <div class="box">
-          <label for="email">E-mail</label>
+          <label for="email">Epasts</label>
           <input [(ngModel)]="user.email" name="email" type="email" required
                  [ngClass]="{'errorBorder': emailError }">
           <p *ngIf="emailError" class="error">This is required field</p>
         </div>
         <div class="box">
-          <label for="password">Password</label>
+          <label for="password">Parole</label>
           <input [(ngModel)]="user.password" name="password" type="password" required
                  [ngClass]="{'errorBorder': passwordError }">
           <p *ngIf="passwordError" class="error">This is required field</p>
         </div>
         <div class="box">
-          <label for="phoneNumber">Phone number</label>
+          <label for="phoneNumber">Telefona numurs</label>
           <input [(ngModel)]="user.phoneNumber" name="phoneNumber" type="text" required
                  [ngClass]="{'errorBorder': phoneError }">
           <p *ngIf="phoneError" class="error">This is required field</p>
@@ -56,32 +56,32 @@
       </div>
       <div style="width:45%; margin:0 5px;">
         <div class="box" *ngIf="currentUser.role=='admin'">
-          <label for="role">Role</label>
+          <label for="role">Loma</label>
           <select [(ngModel)]="user.role" name="role" required
                   [ngClass]="{'errorBorder': addresError }">
-            <option [value]="'master'">Master</option>
-            <option [value]="'client'">Client</option>
+            <option [value]="'master'">Meistars</option>
+            <option [value]="'client'">Klients</option>
           </select>
         </div>
 
         <div *ngIf="user.role == 'master'">
           <div class="box">
-            <label for="adress">Address</label>
+            <label for="adress">Adrese</label>
             <input [(ngModel)]="user.adress" name="adress" type="text" required
                    [ngClass]="{'errorBorder': addresError }">
-            <p *ngIf="addresError" class="error">This is required field</p>
+            <p *ngIf="addresError" class="error">Šis ir obligāts lauks</p>
           </div>
           <div class="box">
-            <label for="service">Services</label>
+            <label for="service">Pakalpojumi</label>
             <input [(ngModel)]="user.service" name="service" type="text" required
                    [ngClass]="{'errorBorder': servicesError }">
-            <p *ngIf="servicesError" class="error">This is required field</p>
+            <p *ngIf="servicesError" class="error">Šis ir obligāts lauks</p>
           </div>
           <div class="box">
-            <label for="description">Description</label>
+            <label for="description">Apraksts</label>
             <input [(ngModel)]="user.description" name="description" type="text" required
                    [ngClass]="{'errorBorder': descriptionError }">
-            <p *ngIf="descriptionError" class="error">This is required field</p>
+            <p *ngIf="descriptionError" class="error">Šis ir obligāts lauks</p>
           </div>
         </div>
       </div>
@@ -94,8 +94,8 @@
   <hr class="hr-line">
   <div >
     <!-- Available Appointments -->
-    <h3 *ngIf="currentUser.role!='admin'">Available Appointments</h3>
-    <h3 *ngIf="currentUser.role=='admin'">Masters Appointments</h3>
+    <h3 *ngIf="currentUser.role!='admin'">Pieejamie laiki</h3>
+    <h3 *ngIf="currentUser.role=='admin'">Meistara pierakstu laiki</h3>
     <div class="dateFilter">
       <span (click)="dateBack()"><b>&#11207;</b></span>
       <input style="border: none;" [(ngModel)]="filterDate" (ngModelChange)="updateCalcs()" name="date" type="date">
@@ -114,45 +114,45 @@
               <p>{{n.clientNumber}}</p>
               <p>{{n.clientEmail}}</p>
               <button class="btn" (click)="chat(n)" style="background-color: #92DCE5;">
-                <i class="fa fa-comments"></i> Chat
+                <i class="fa fa-comments"></i> Sarakste
               </button>
             </div>
-            <button class="btn" (click)="applyToAppointment(n)" style="background-color: #92DCE5;">Apply</button>
+            <button class="btn" (click)="applyToAppointment(n)" style="background-color: #92DCE5;">Pieteikties</button>
             <button *ngIf="editing" class="btn" (click)="selectEditApp(n.id)">
-              <i class="fa fa-edit"></i> Edit
+              <i class="fa fa-edit"></i> Labot
             </button>
             <button *ngIf="editing" class="btn" (click)="deleteAppointment(n.id)"
                     style="background-color: #D64933;">
-              <i class="fa fa-trash"></i> Delete
+              <i class="fa fa-trash"></i> Dzēst
             </button>
 
             <!-- Edit Appointment Form -->
             <form #form="ngForm" *ngIf="editAppointmentSelected && editAppointment.id == n.id">
               <div class="box">
-                <label>Date</label>
+                <label>Datums</label>
                 <input [(ngModel)]="editAppointment.date" name="date" type="date" required
                        [ngClass]="{'errorBorder': dateError }" [min]="today">
-                <p *ngIf="dateError" class="error">This is required field</p>
+                <p *ngIf="dateError" class="error">Šis ir obligāts lauks</p>
               </div>
               <div class="box">
-                <label>Start Time</label>
+                <label>Sākuma laiks</label>
                 <input [(ngModel)]="editAppointment.timeStart" name="timeStart" type="time" required
                        [ngClass]="{'errorBorder': timeStartError }">
-                <p *ngIf="timeStartError" class="error">This is required field. Must be in format <b>00:00</b></p>
+                <p *ngIf="timeStartError" class="error">Šis ir obligāts lauks. Jābūt formātā <b>00:00</b></p>
               </div>
               <div class="box">
-                <label>End Time</label>
+                <label>Beigu laiks</label>
                 <input [(ngModel)]="editAppointment.timeEnd" name="timeEnd" type="time" required
                        [ngClass]="{'errorBorder': timeEndError }">
-                <p *ngIf="timeEndError" class="error">This is required field. Must be in format <b>00:00</b> and largen than start time</p>
+                <p *ngIf="timeEndError" class="error">Šis ir obligāts lauks. Jābūt formātā <b>00:00</b> un lielākam par sākuma laiku</p>
               </div>
               <div class="box">
-                <label>Description</label>
+                <label>Apraksts</label>
                 <input [(ngModel)]="editAppointment.description" name="description" type="text" required
                        [ngClass]="{'errorBorder': appDescError }">
-                <p *ngIf="appDescError" class="error">This is required field</p>
+                <p *ngIf="appDescError" class="error">Šis ir obligāts lauks</p>
               </div>
-              <button (click)="saveEditAppointment()">Save</button>
+              <button (click)="saveEditAppointment()">Saglabāt</button>
             </form>
           </div>
         </div>
@@ -161,42 +161,42 @@
 
     <!-- Create New Appointment -->
     <form #form="ngForm" *ngIf="editing">
-      <h3>Create Appointment Time</h3>
+      <h3>IZveidot jaunu pierakstu</h3>
       <div class="box">
-        <label>Date</label>
+        <label>Datums</label>
         <input [(ngModel)]="appointment.date" name="date" type="date" required
                [ngClass]="{'errorBorder': dateError2 }">
-        <p *ngIf="dateError2" class="error">This is required field</p>
+        <p *ngIf="dateError2" class="error">Šis ir obligāts lauks</p>
       </div>
       <div class="box">
-        <label>Start Time</label>
+        <label>Sākuma laiks</label>
         <input [(ngModel)]="appointment.timeStart" name="timeStart" type="time" required
                [ngClass]="{'errorBorder': timeStartError2 }">
-        <p *ngIf="timeStartError2" class="error">This is required field. Must be in format <b>00:00</b></p>
+        <p *ngIf="timeStartError2" class="error">Šis ir obligāts lauks. Jābūt formātā <b>00:00</b></p>
       </div>
       <div class="box">
-        <label>End Time</label>
+        <label>Beigu laiks</label>
         <input [(ngModel)]="appointment.timeEnd" name="timeEnd" type="time" required
                [ngClass]="{'errorBorder': timeEndError2 }">
-        <p *ngIf="timeEndError2" class="error">This is required field. Must be in format <b>00:00</b> and largen than start time</p>
+        <p *ngIf="timeEndError2" class="error">Šis ir obligāts lauks. Jābūt formātā <b>00:00</b> un lielākam par sākuma laiku.</p>
       </div>
       <div class="box">
-        <label>Description</label>
+        <label>Apraksts</label>
         <input [(ngModel)]="appointment.description" name="description" type="text" required
                [ngClass]="{'errorBorder': descriptionError2 }">
-        <p *ngIf="appDescError2" class="error">This is required field</p>
+        <p *ngIf="appDescError2" class="error">Šis ir obligāts lauks</p>
       </div>
-      <button (click)="createNewAppointment()">Save</button>
+      <button (click)="createNewAppointment()">Saglabāt</button>
     </form>
 
-    <h3>Ratings <b style="font-size:20px;">  {{avgRating.toFixed(1)}}</b><b style="color:#D64933;font-size:20px;">&#9733;</b> </h3>
+    <h3>Atsauksmes <b style="font-size:20px;">  {{avgRating.toFixed(1)}}</b><b style="color:#D64933;font-size:20px;">&#9733;</b> </h3>
     <div class="feedbacks">
       <!-- Ratings Section -->
       <div *ngFor="let n of ratings">
         <div class="tile-front">
           <strong>{{n.mark}} <b style="color:#D64933;">&#9733;</b> | {{n.feedbackText}}</strong>
           <button *ngIf="editing" class="btn" (click)="deleteFeedback(n.id)" style="background-color: #D64933;">
-            <i class="fa fa-trash"></i> Delete
+            <i class="fa fa-trash"></i> Dzēst
           </button>
         </div>
       </div>
@@ -204,32 +204,32 @@
 
     <!-- Feedback Form -->
     <form #form="ngForm">
-      <h3>Leave Feedback</h3>
+      <h3>Atstāj atsauksmi</h3>
       <div class="box">
-        <label>Mark</label>
+        <label>Vērtējums</label>
         <input [(ngModel)]="rating.mark" name="mark" type="number" min="1" max="5" required>
       </div>
       <div class="box">
-        <label>Feedback</label>
+        <label>Atsauksme</label>
         <input [(ngModel)]="rating.feedbackText" name="feedbackText" type="text" required>
       </div>
-      <button (click)="createFeedback()">Save</button>
+      <button (click)="createFeedback()">Saglabāt</button>
     </form>
   </div>
 
   <div class="modal" id="confirmationModal" *ngIf="openModal">
     <div class="modal-content">
-      <h3>Are you sure?</h3>
-      <p *ngIf="modalFeedback">Do you really want to delete this feedback?</p>
+      <h3>Vai esat pārliecināts?</h3>
+      <p *ngIf="modalFeedback">Vai tiešām vēlaties dzēst šo ierakstu?</p>
       <div *ngIf="modalFeedback" class="modal-buttons">
-        <button class="btn confirm" (click)="confirmFeedback()">Yes</button>
-        <button class="btn cancel" (click)="cancelFeedback()">No</button>
+        <button class="btn confirm" (click)="confirmFeedback()">Jā</button>
+        <button class="btn cancel" (click)="cancelFeedback()">Nē</button>
       </div>
 
-      <p *ngIf="modalDelete">Do you really want to delete this appointment?</p>
+      <p *ngIf="modalDelete">Vai tiešām vēlaties izdzēst šo pieraksta laiku?</p>
       <div *ngIf="modalDelete" class="modal-buttons">
-        <button class="btn confirm" (click)="confirmDelete()">Yes</button>
-        <button class="btn cancel" (click)="cancelDelete()">No</button>
+        <button class="btn confirm" (click)="confirmDelete()">Jā</button>
+        <button class="btn cancel" (click)="cancelDelete()">Nē</button>
       </div>
     </div>
   </div>
