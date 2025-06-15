@@ -1,6 +1,6 @@
 <div class="container">
   <div class="action-bar" style="width:100%;">
-    <a class="btn" href="/user-create">Create</a>
+    <a class="btn" href="/user-create">Izveidot</a>
   </div>
   <!-- User List Display -->
   <div *ngFor="let n of data" (click)="openUser(n)" class="tile">
@@ -13,7 +13,7 @@
 
       <!-- Edit Button -->
       <button *ngIf="editing" class="btn" routerLink="/user-detail/{{n.id}}">
-        <i class="fa fa-edit"></i> Edit
+        <i class="fa fa-edit"></i> Labot
       </button>
     </div>
   </div>
