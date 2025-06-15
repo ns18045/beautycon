@@ -1,69 +1,69 @@
 <div class="container">
-  <h1>Create New Profile</h1>
+  <h1>Izveidot jaunu profilu</h1>
 
   <form #form="ngForm">
     <div class="box">
-      <label for="name">Name</label>
+      <label for="name">Vārds</label>
       <input [(ngModel)]="model.name" name="name" type="text" required
              [ngClass]="{'errorBorder': nameError }">
-      <p *ngIf="nameError" class="error">This is required field</p>
+      <p *ngIf="nameError" class="error">Šis ir obligāts lauks</p>
     </div>
     <div class="box">
-      <label for="surname">Surname</label>
+      <label for="surname">Uzvārds</label>
       <input [(ngModel)]="model.surname" name="surname" type="text" required
              [ngClass]="{'errorBorder': surnameError }">
-      <p *ngIf="surnameError" class="error">This is required field</p>
+      <p *ngIf="surnameError" class="error">Šis ir obligāts lauks</p>
     </div>
     <div class="box">
-      <label for="email">E-mail</label>
+      <label for="email">E-pasts</label>
       <input [(ngModel)]="model.email" name="email" type="email" required
              [ngClass]="{'errorBorder': emailError || email2Error }">
-      <p *ngIf="emailError" class="error">This is required field. Email format must be <b>email@example.com</b></p>
-      <p *ngIf="email2Error" class="error">This email already exists</p>
+      <p *ngIf="emailError" class="error">Šis ir obligāts lauks. E-pastam jābūt formātā <b>email@example.com</b></p>
+      <p *ngIf="email2Error" class="error">Šāds e-pasts jau eksistē</p>
     </div>
     <div class="box">
-      <label for="password">Password</label>
+      <label for="password">Parole</label>
       <input [(ngModel)]="model.password" name="password" type="password" required
              [ngClass]="{'errorBorder': passwordError }">
-      <p *ngIf="passwordError" class="error">This is required field. Password must have atleast 8 symbols</p>
+      <p *ngIf="passwordError" class="error">Šis ir obligāts lauks. Parolei jāsastāv no vismaz 8 simboliem</p>
     </div>
     <div class="box">
-      <label for="phoneNumber">Phone number</label>
+      <label for="phoneNumber">Telefina numurs</label>
       <input [(ngModel)]="model.phoneNumber" name="phoneNumber" type="text" required
              [ngClass]="{'errorBorder': phoneError }">
-      <p *ngIf="phoneError" class="error">This is required field. Phone number must be 8 digit number</p>
+      <p *ngIf="phoneError" class="error">Šis ir obligāts lauks. Telefona numuram jāsastāv no 8 cipariem.</p>
     </div>
     <div class="box">
-      <label for="role">Role</label>
+      <label for="role">Loma</label>
       <select [(ngModel)]="model.role" name="role" required>
-        <option [value]="'master'">Master</option>
-        <option [value]="'client'">Client</option>
+        <option [value]="'master'">Meistars</option>
+        <option [value]="'client'">Klients</option>
       </select>
     </div>
 
     <div *ngIf="model.role == 'master'">
       <div class="box">
-        <label for="adress">Address</label>
+        <label for="adress">Adrese</label>
         <input [(ngModel)]="model.adress" name="adress" type="text" required
                [ngClass]="{'errorBorder': addresError }">
-        <p *ngIf="addresError" class="error">This is required field</p>
+        <p *ngIf="addresError" class="error">Šis ir obligāts lauks</p>
       </div>
       <div class="box">
-        <label for="service">Services</label>
+        <label for="service">Pakalpojumi</label>
         <input [(ngModel)]="model.service" name="service" type="text" required
                [ngClass]="{'errorBorder': servicesError }">
-        <p *ngIf="servicesError" class="error">This is required field</p>
+        <p *ngIf="servicesError" class="error">Šis ir obligāts lauks</p>
       </div>
       <div class="box">
-        <label for="description">Description</label>
+        <label for="description">Apraksts</label>
         <input [(ngModel)]="model.description" name="description" type="text" required
                [ngClass]="{'errorBorder': descriptionError }">
-        <p *ngIf="descriptionError" class="error">This is required field</p>
+        <p *ngIf="descriptionError" class="error">Šis ir obligāts lauks</p>
       </div>
     </div>
 
     <button (click)="create()">
-      Save
+      Saglabāt
     </button>
   </form>
 </div>
